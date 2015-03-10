@@ -1,0 +1,61 @@
+<template name="home">
+<nav class="navbar navbar-inverse" id="navmenu" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" id="brand" href="{{pathFor 'home'}}">Sports-Central</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="{{pathFor 'home'}}">home <span class="sr-only">(current)</span></a></li>
+        <li><a href="{{pathFor 'clientsView'}}">ranking</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{{pathFor 'about'}}">about</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+  <button type="button" class="btn btn-default navbar-btn">{{> loginButtons}}</button>
+</div>
+<div class="container-fluid">
+
+	<h1 id="pageHeader">Sport Central</h1>
+</div>
+<div class="container-fluid">
+
+<button class="btn btn-danger createBtn"><a href="{{pathFor 'createsportTable'}}">Create sport table </a></button>
+</div>
+
+	<div class="container-fluid">
+	
+	<div class="row row-centered">
+
+		<a class="twitter-timeline" href="https://twitter.com/Xtreme_Gaming" data-widget-id="572746587634683904">Tweets by @Xtreme_Gaming</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	
+	
+	</div>
+	</div>
+  <div class="container">
+  <hr>
+  </div>
+  <div class="container" id="feeds">
+  <div class="row feed-box">
+  <div class="col-xs-6 col-sm-4"><iframe width="295" height="321" src="http://www.football.co.uk/net-widgets/Default.aspx" frameborder="0.5" scrolling="no"></iframe><div style="clear:both;text-align:left;"></div>
+  </div>
+  <div class="col-xs-6 col-sm-4 hidden-xs "><iframe width="300" height="320" src="http://live.motorsport.co.uk" frameborder="0.5" scrolling="no"></iframe><div style="clear:both;text-align:left;"></div>
+  </div>
+  <div class="col-xs-6 col-sm-4 hidden-xs hidden-sm"><iframe width="300" height="320" src="http://live.golf.co.uk" frameborder="0.5" scrolling="no"></iframe><div style="clear:both;text-align:left;"></div>
+  </div>
+</div>
+</div>
+  
+
+</template>

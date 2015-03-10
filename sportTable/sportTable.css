@@ -1,0 +1,42 @@
+#navmenu{
+	padding-top: 1.1%;
+}
+#navmenu a{
+	color: white;
+	padding-top: 3%;
+}
+#navmenu a:hover{
+	color: red;
+}
+#brand{
+	font-size: 2em;
+}
+
+#crtesubmitBtn{
+	padding-left: 15%;
+}
+#tableTitle{
+	text-align: center;
+	padding-bottom: 1%;
+}
+#tableDate{
+	color: red;
+	padding-right: 12%
+}
+.compform{
+	padding-left: 7%;
+}
+.selected{
+	background-color: silver;
+}
+.compInp{
+	width: 20%;
+	padding: 60%;
+}
+.addpoint{
+	width: 5%;
+}
+
+#exampleInputEmail1 > input{
+
+}

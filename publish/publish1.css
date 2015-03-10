@@ -1,0 +1,13 @@
+#navmenu{
+	padding-top: 1.1%;
+}
+#navmenu a{
+	color: white;
+	padding-top: 3%;
+}
+#navmenu a:hover{
+	color: red;
+}
+#brand{
+	font-size: 2em;
+}
