@@ -1,0 +1,152 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'meteor-package-paths' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'meteor-package-paths', null ]
+6 verbose cache add name=undefined spec="meteor-package-paths" args=["meteor-package-paths",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'meteor-package-paths',
+7 verbose parsed url   path: 'meteor-package-paths',
+7 verbose parsed url   href: 'meteor-package-paths' }
+8 silly lockFile b103636d-meteor-package-paths meteor-package-paths
+9 verbose lock meteor-package-paths /home/peth/.npm/b103636d-meteor-package-paths.lock
+10 silly lockFile b103636d-meteor-package-paths meteor-package-paths
+11 silly lockFile b103636d-meteor-package-paths meteor-package-paths
+12 verbose addNamed [ 'meteor-package-paths', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile b7d39615-meteor-package-paths meteor-package-paths@
+15 verbose lock meteor-package-paths@ /home/peth/.npm/b7d39615-meteor-package-paths.lock
+16 silly addNameRange { name: 'meteor-package-paths', range: '*', hasData: false }
+17 verbose request where is /meteor-package-paths
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 3a96d7342b2a9236
+20 verbose url raw /meteor-package-paths
+21 verbose url resolving [ 'https://registry.npmjs.org/', './meteor-package-paths' ]
+22 verbose url resolved https://registry.npmjs.org/meteor-package-paths
+23 verbose request where is https://registry.npmjs.org/meteor-package-paths
+24 info trying registry request attempt 1 at 17:17:01
+25 verbose etag "88M85CUXDACSLTNAYJZHOD72M"
+26 http GET https://registry.npmjs.org/meteor-package-paths
+27 http 304 https://registry.npmjs.org/meteor-package-paths
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Tue, 10 Mar 2015 15:17:03 GMT',
+28 silly registry.get     server: 'Apache',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'last-modified': 'Tue, 10 Mar 2015 15:17:03 GMT',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"88M85CUXDACSLTNAYJZHOD72M"',
+28 silly registry.get     age: '14',
+28 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1426000623.376052,VS0,VE0',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/meteor-package-paths from cache
+30 silly addNameRange number 2 { name: 'meteor-package-paths', range: '*', hasData: true }
+31 silly addNameRange versions [ 'meteor-package-paths',
+31 silly addNameRange   [ '0.0.29',
+31 silly addNameRange     '0.0.30',
+31 silly addNameRange     '0.0.31',
+31 silly addNameRange     '0.0.32',
+31 silly addNameRange     '0.0.33',
+31 silly addNameRange     '0.0.34',
+31 silly addNameRange     '0.0.35',
+31 silly addNameRange     '0.0.36',
+31 silly addNameRange     '0.0.37',
+31 silly addNameRange     '0.0.39',
+31 silly addNameRange     '0.0.40' ] ]
+32 verbose addNamed [ 'meteor-package-paths', '0.0.40' ]
+33 verbose addNamed [ '0.0.40', '0.0.40' ]
+34 silly lockFile 1454fc25-meteor-package-paths-0-0-40 meteor-package-paths@0.0.40
+35 verbose lock meteor-package-paths@0.0.40 /home/peth/.npm/1454fc25-meteor-package-paths-0-0-40.lock
+36 silly lockFile 1454fc25-meteor-package-paths-0-0-40 meteor-package-paths@0.0.40
+37 silly lockFile 1454fc25-meteor-package-paths-0-0-40 meteor-package-paths@0.0.40
+38 silly lockFile b7d39615-meteor-package-paths meteor-package-paths@
+39 silly lockFile b7d39615-meteor-package-paths meteor-package-paths@
+40 silly resolved [ { name: 'meteor-package-paths',
+40 silly resolved     version: '0.0.40',
+40 silly resolved     homepage: 'https://github.com/philcockfield/meteor-package-paths',
+40 silly resolved     engines: [ 'node >=0.10.33' ],
+40 silly resolved     description: 'Manages file paths for Meteor packages.',
+40 silly resolved     author:
+40 silly resolved      { name: 'Phil Cockfield',
+40 silly resolved        url: 'https://github.com/philcockfield' },
+40 silly resolved     dependencies:
+40 silly resolved      { 'coffee-script': '>=1.8.0',
+40 silly resolved        sugar: '1.4.1',
+40 silly resolved        colors: '0.6.0-1',
+40 silly resolved        wrench: '1.5.1',
+40 silly resolved        commander: '>= 2.3.0' },
+40 silly resolved     repository:
+40 silly resolved      { type: 'git',
+40 silly resolved        url: 'https://github.com/philcockfield/meteor-package-paths.git' },
+40 silly resolved     bin: { package: './bin/command.js' },
+40 silly resolved     gitHead: 'd748c34da703e5672cf18dd64b8f748faeca33a6',
+40 silly resolved     bugs: { url: 'https://github.com/philcockfield/meteor-package-paths/issues' },
+40 silly resolved     _id: 'meteor-package-paths@0.0.40',
+40 silly resolved     scripts: {},
+40 silly resolved     _shasum: '307a8042a8f8aec56180ee9fb8d608fdeca8d0bc',
+40 silly resolved     _from: 'meteor-package-paths@',
+40 silly resolved     _npmVersion: '1.4.28',
+40 silly resolved     _npmUser: { name: 'philcockfield', email: 'phil@cockfield.net' },
+40 silly resolved     maintainers: [ [Object] ],
+40 silly resolved     dist:
+40 silly resolved      { shasum: '307a8042a8f8aec56180ee9fb8d608fdeca8d0bc',
+40 silly resolved        tarball: 'http://registry.npmjs.org/meteor-package-paths/-/meteor-package-paths-0.0.40.tgz' },
+40 silly resolved     directories: {},
+40 silly resolved     _resolved: 'https://registry.npmjs.org/meteor-package-paths/-/meteor-package-paths-0.0.40.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install meteor-package-paths@0.0.40 into /usr/lib
+42 info installOne meteor-package-paths@0.0.40
+43 verbose lib/node_modules/meteor-package-paths unbuild
+44 verbose tar unpack /home/peth/.npm/meteor-package-paths/0.0.40/package.tgz
+45 silly lockFile 4a44b927-ode-modules-meteor-package-paths tar:///usr/lib/node_modules/meteor-package-paths
+46 verbose lock tar:///usr/lib/node_modules/meteor-package-paths /home/peth/.npm/4a44b927-ode-modules-meteor-package-paths.lock
+47 silly lockFile 393fd4f8-package-paths-0-0-40-package-tgz tar:///home/peth/.npm/meteor-package-paths/0.0.40/package.tgz
+48 verbose lock tar:///home/peth/.npm/meteor-package-paths/0.0.40/package.tgz /home/peth/.npm/393fd4f8-package-paths-0-0-40-package-tgz.lock
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 error Error: EACCES, mkdir '/usr/lib/node_modules/meteor-package-paths'
+50 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/meteor-package-paths']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/usr/lib/node_modules/meteor-package-paths',
+50 error   fstream_type: 'Directory',
+50 error   fstream_path: '/usr/lib/node_modules/meteor-package-paths',
+50 error   fstream_class: 'DirWriter',
+50 error   fstream_stack:
+50 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+50 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+50 error      'Object.oncomplete (fs.js:107:15)' ] }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.13.0-24-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "meteor-package-paths"
+54 error cwd /home/peth/PETH-LAB/sport-central
+55 error node -v v0.10.33
+56 error npm -v 1.4.28
+57 error path /usr/lib/node_modules/meteor-package-paths
+58 error fstream_path /usr/lib/node_modules/meteor-package-paths
+59 error fstream_type Directory
+60 error fstream_class DirWriter
+61 error code EACCES
+62 error errno 3
+63 error stack Error: EACCES, mkdir '/usr/lib/node_modules/meteor-package-paths'
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+64 error fstream_stack Object.oncomplete (fs.js:107:15)
+65 verbose exit [ 3, true ]
