@@ -40,14 +40,46 @@
 	padding-top: 1.5%;
 	padding-left: 4%;
 }
-
-@media (max-width: @screen-xs-max) {
-	.feed-box{
-		padding-left: 16%;
-	}
+.carousel-inner > .item > img {
+  
+    top: 0px;
+    left: 0px;
+    height: auto;
+    width:100%;
 }
-@media screen and ( max-width: 700px) {
-	.feed-box{
-		padding-left: 4%;
-	}
+.carousel .item {
+    height: 400px;
+    background-color: #777;
+}
+.carousel-control{
+	margin-top: 28%;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 4%;
+
+}
+.carousel {
+    height: 400px;
+    overflow: hidden;
+}
+
+.carousel .item {
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.carousel .active.left, .carousel .active.right {
+    left:0;
+    opacity:0;
+    z-index:2;
+}
+.carousel .next, .carousel .prev {
+    left:0;
+    opacity:1;
+    z-index:1;
+}
+.mobile-images{
+	padding-bottom: 6%;
 }
