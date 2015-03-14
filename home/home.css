@@ -1,9 +1,17 @@
+@font-face{
+	font-family: Gputeks;
+	src:url(/fonts/Gputeks-Bold.ttf);
+}
+@font-face{
+	font-family: Cantarell;
+	src:url(/fonts/Cantarell-Regular.ttf);
+}
 #navmenu{
 	padding-top: 1.1%;
 }
 #navmenu a{
-	color: white;
-	
+	color: #66A3A3;
+	font-family: Gputeks;
 }
 #navmenu a:hover{
 	color: red;
@@ -12,7 +20,11 @@
 #pageHeader{
 	text-align: center;
 	padding-bottom: 2%;
-	color: white;
+	color: #00CC99;
+	font-size: 3em;
+	font-family: Gputeks;
+	font-weight: bold;
+
 }
 .createBtn{
 	
@@ -40,15 +52,15 @@
 	padding-top: 1.5%;
 	padding-left: 4%;
 }
-.carousel-inner > .item > img {
-  
-    top: 0px;
-    left: 0px;
-    height: auto;
-    width:100%;
+.carousel .item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%;
 }
 .carousel .item {
-    height: 400px;
+    height: 500px;
     background-color: #777;
 }
 .carousel-control{
@@ -58,10 +70,7 @@
 	width: 4%;
 
 }
-.carousel {
-    height: 400px;
-    overflow: hidden;
-}
+
 
 .carousel .item {
     -webkit-transition: opacity 1s;

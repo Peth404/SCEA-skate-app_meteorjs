@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" id="brand" href="{{pathFor 'home'}}">Sports-Central</a>
+        <a class="navbar-brand" id="brand" href="{{pathFor 'home'}}">SCEA</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
@@ -25,12 +25,13 @@
     <button type="button" class="btn btn-default navbar-btn">{{> loginButtons}}</button>
   </div>
   <div class="container-fluid">
-	   <h1 id="pageHeader">Sport Central</h1>
+	   <h1 id="pageHeader">Street Culture Events & Arts</h1>
   </div>
-
+{{#if currentUser}}
   <div class="container-fluid">
     <button class="btn btn-danger createBtn"><a href="{{pathFor 'createsportTable'}}">Create sport table </a></button>
   </div>
+  {{/if}}
 
 	<div class="container-fluid">
 	  <div class="row row-centered">
@@ -38,7 +39,7 @@
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
 	 </div>
 
-  <div class="container">
+  <div class="container-fluid">
     <hr>
   </div>
 
@@ -52,28 +53,28 @@
 
             <div class="carousel-inner">
               <div class="active item" data-slide-number="0">
-                <img src="/images/bg.jpg" class="img-responsive">
+                <img src="/images/skaters.png" class="img-responsive">
               </div>
               <div class="item" data-slide-number="1">
-                  <img src="/images/slide7.jpg" class="img-responsive">
+                  <img src="/images/105.jpg" class="img-responsive">
               </div>
               <div class="item" data-slide-number="2">
-                <img src="/images/slide1.jpg" class="img-responsive">
+                <img src="/images/500.jpg" class="img-responsive">
               </div>
               <div class="item" data-slide-number="3">
-                <img src="/images/slide2.jpg" class="img-responsive">
+                <img src="/images/100.jpg" class="img-responsive">
               </div>
               <div class="item" data-slide-number="4">
-                <img src="/images/slide3.jpg" class="img-responsive">
+                <img src="/images/102.jpg" class="img-responsive">
               </div>
               <div class="item" data-slide-number="5">
-                <img src="/images/slide4.jpg" class="img-responsive">
+                <img src="/images/101.jpg" class="img-responsive">
               </div>
               <div class="item" data-slide-number="6">
-                <img src="/images/slide5.jpg" class="img-responsive">
+                <img src="/images/103.jpg" class="img-responsive">
               </div>
               <div class="item" data-slide-number="7">
-                  <img src="/images/slide6.jpg" class="img-responsive">
+                  <img src="/images/104.jpg" class="img-responsive">
               </div>
             </div>
           </div>
@@ -85,38 +86,42 @@
   </div>
 
   <!-- for mobile view -->
-
-  <div class="row">
-    <div class="col-lg-2 col-sm-3 col-xs-4 hidden-md hidden-lg">
-      <a href="#">
-        <img src="/images/slide5.jpg" class="img-responsive mobile-images">
-      </a>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-sm-3 col-xs-4 hidden-sm hidden-md hidden-lg">
+        <a href="#">
+          <img src="/images/104.jpg" class="img-responsive mobile-images">
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-3 col-xs-4 hidden-sm hidden-md hidden-lg">
+        <a href="#">
+            <img src="/images/102.jpg" class="img-responsive mobile-images">
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-3 col-xs-4 hidden-sm hidden-md hidden-lg">
+        <a href="#">
+             <img src="/images/100.jpg" class="img-responsive mobile-images">
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-3 col-xs-4 hidden-sm hidden-md hidden-lg">
+        <a href="#">
+             <img src="/images/skaters.png" class="img-responsive mobile-images">
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-3 col-xs-4 hidden-sm hidden-md hidden-lg">
+        <a href="#">
+             <img src="/images/103.jpg" class="img-responsive mobile-images">
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-3 col-xs-4 hidden-sm hidden-md hidden-lg">
+        <a href="#">
+             <img src="/images/102.jpg" class="img-responsive mobile-images">
+        </a>
+      </div>
     </div>
-    <div class="col-lg-2 col-sm-3 col-xs-4 hidden-md hidden-lg">
-      <a href="#">
-          <img src="/images/slide6.jpg" class="img-responsive mobile-images">
-      </a>
-    </div>
-    <div class="col-lg-2 col-sm-3 col-xs-4 hidden-md hidden-lg">
-      <a href="#">
-           <img src="/images/slide3.jpg" class="img-responsive mobile-images">
-      </a>
-    </div>
-    <div class="col-lg-2 col-sm-3 col-xs-4 hidden-md hidden-lg">
-      <a href="#">
-           <img src="/images/slide1.jpg" class="img-responsive mobile-images">
-      </a>
-    </div>
-    <div class="col-lg-2 col-sm-3 col-xs-4 hidden-md hidden-lg">
-      <a href="#">
-           <img src="/images/slide4.jpg" class="img-responsive mobile-images">
-      </a>
-    </div>
-    <div class="col-lg-2 col-sm-3 col-xs-4 hidden-md hidden-lg">
-      <a href="#">
-           <img src="/images/slide7.jpg" class="img-responsive mobile-images">
-      </a>
-    </div>
+  </div>
+  <div class="container-fluid">
+    <hr>
   </div>
 
 </template>

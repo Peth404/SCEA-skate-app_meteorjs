@@ -2,7 +2,7 @@
 	padding-top: 1.1%;
 }
 #navmenu a{
-	color: white;
+	font-family: Gputeks;
 	padding-top: 3%;
 }
 #navmenu a:hover{
@@ -10,4 +10,13 @@
 }
 #brand{
 	font-size: 2em;
+}
+#tableTitle{
+	font-family: Gputeks;
+	color: #00CC99;
+}
+#table-data{
+	font-family: Cantarell-Regular;
+	font-size: 1.5em;
+	color: #E6FAF5;
 }

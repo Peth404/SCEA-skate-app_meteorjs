@@ -68,3 +68,11 @@ if(Meteor.isClient){
 	//console.log("submit");
 	//console.log(formTitle);
 }
+if (Meteor.isServer){
+		Meteor.publish('the-skaters', function(){
+			return logTable.find();
+		});
+		Meteor.publish('the-db', function(){
+			return SportsTable.find();
+		});
+}

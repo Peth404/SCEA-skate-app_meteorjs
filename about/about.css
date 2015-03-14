@@ -1,3 +1,33 @@
-#about-par{
+.about-par{
 	text-align: center;
+	text-decoration: none;
+	color: #E6FAF5;
+	font-family: Cantarell-Regular;
+	font-size: 1.5em;
+	padding-bottom: 2%;
+}
+#about-app{
+	padding-top: 3%;
+}
+#cont-header{
+	font-family: Gputeks;
+	font-size: 2em;
+	text-align: center;
+	color: #00CC99;
+}
+.contact-details{
+	font-family: Cantarell-Regular;
+	font-size: 1.5em;
+	text-align: center;
+	color: #E6FAF5;
+
+}
+#icon-container{
+	padding-top: 3%;
+	padding-left: 15%;
+}
+.img{
+	height: 76px;
+	width: 65px;
+	border-radius: 100%;
 }
