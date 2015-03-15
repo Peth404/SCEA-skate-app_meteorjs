@@ -12,11 +12,11 @@
 	    </div>
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	        <li><a href="{{pathFor 'home'}}">home <span class="sr-only">(current)</span></a></li>
-	        <li><a href="{{pathFor 'clientsView'}}">ranking</a></li>
+	        <li><a href="{{pathFor 'home'}}">Home <span class="sr-only">(current)</span></a></li>
+	        <li><a href="{{pathFor 'clientsView'}}">Ranking</a></li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="{{pathFor 'about'}}">about</a></li>
+	        <li><a href="{{pathFor 'about'}}">About Us</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -33,8 +33,8 @@
 		<div class="table-reponsive">
 			<table class="table table-striped table-bordered" id="table-data">
 		        <tr>
-			        <th>Competitor</th>
-		            <th>Points</th>
+			        <th class="table-headers">Competitor</th>
+		            <th class="table-headers">Points</th>
     			</tr>
 		       	{{#each competition}}
 		       	<tr>
